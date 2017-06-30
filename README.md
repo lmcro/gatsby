@@ -1,29 +1,37 @@
-[![Travis CI Build Status](https://travis-ci.org/gatsbyjs/gatsby.svg?branch=master)](https://travis-ci.org/gatsbyjs/gatsby)
+[![Travis CI Build Status](https://img.shields.io/travis/gatsbyjs/gatsby/master.svg?style=flat-square)](https://travis-ci.org/gatsbyjs/gatsby)
 [![npm package](https://img.shields.io/npm/v/gatsby.svg?style=flat-square)](https://www.npmjs.org/package/gatsby)
 [![gatsby channel on discord](https://img.shields.io/badge/discord-gatsby%40reactiflux-738bd7.svg?style=flat-square)](https://discord.gg/0ZcbPKXt5bVoxkfV)
 [![OpenCollective](https://opencollective.com/gatsby/backers/badge.svg)](#backers)
-[![OpenCollective](https://opencollective.com/gatsby/sponsors/badge.svg)](#sponsors)
 [![Twitter Follow](https://img.shields.io/twitter/follow/gatsbyjs.svg?style=social)](https://twitter.com/gatsbyjs)
 
 # Gatsby
-Transform plain text into dynamic blogs and websites using the latest
-web technologies. A React.js static site generator.
 
-Supports Markdown, HTML, and React.js pages out of the box. Easy to add
-support for additional file types.
+⚛️📄🚀 Blazing fast React.js static site generator
+
+Transform plain text and data into dynamic blogs and websites using the latest
+web technologies.
+
+Supports pages written in Markdown, HTML, and React.js out of the box. Easy to
+add support for additional file types.
 
 Leverages React's [component model](https://facebook.github.io/react/blog/2013/06/05/why-react.html)
- and [React Router's "nested component hierarchy"](https://github.com/rackt/react-router/blob/master/docs/Introduction.md)
+ and [React Router's "nested component hierarchy"](https://github.com/ReactTraining/react-router/blob/v3.0.3/docs/Introduction.md)
 to make templating incredibly powerful and intuitive.
 
 All templates, css, and content are *hot reloadable* — powered by
-[webpack](https://github.com/webpack/webpack).
+[webpack](https://github.com/webpack/webpack). Makes for a brilliant
+development experience
 
 Build sites like it's 1995. Files are translated into HTML pages at the
 same position within the file system. Add a markdown file at `/docs/index.md` and
 it'll be converted to `/docs/index.html`.
 
-*[We've started work on a 1.0 release of Gatsby!](https://github.com/gatsbyjs/gatsby/issues/419)* Find the code in the `1.0` branch.
+*[We're working on the 1.0 release of Gatsby!](https://github.com/gatsbyjs/gatsby/issues/419)* Find the code in the `1.0` branch.
+
+Come help us finish up the release! See the list of [remaining tasks on the 1.0 umbrella issue](https://github.com/gatsbyjs/gatsby/issues/796).
+
+Checkout the first 1.0 example site GatsbyGram
+https://gatsbygram.gatsbyjs.org and the case study on how its built https://www.gatsbyjs.org/blog/gatsbygram-case-study/
 
 ![live-reloading example](http://zippy.gfycat.com/UltimateWeeklyBarebirdbat.gif)
 
@@ -48,13 +56,12 @@ it'll be converted to `/docs/index.html`.
 * [syncano.io](https://www.syncano.io) ([source](https://github.com/Syncano/syncano.com))
 * [graphene-python.org](http://graphene-python.org/) ([source](https://github.com/graphql-python/graphene/tree/master/docs))
 * [back-to-the-basics.io](http://back-to-the-basics.io/)
-* [ashk.io](http://ashk.io/) ([source](https://github.com/wpioneer/blog))
 * [nordnet.se/brand](https://www.nordnet.se/brand/)
 * [likescoffee.com](https://likescoffee.com/) ([source](https://github.com/pamo/pamo.github.io/tree/development))
 * [vii.campjs.com](http://vii.campjs.com/) ([source](https://github.com/campjs/campjs-vii))
 * [michaeljdeeb.com](http://michaeljdeeb.com) ([source](https://github.com/michaeljdeeb/michaeljdeeb-gatsby-blog))
 * [brittcrawford.com](http://brittcrawford.com) ([source](https://github.com/britt/britt.github.com/tree/gatsby))
-* [React-MDL](https://tleunen.github.io/react-mdl/) ([source](https://github.com/tleunen/react-mdl/tree/master/docs))
+* [React-MDL](https://react-mdl.github.io/react-mdl/) ([source](https://github.com/tleunen/react-mdl/tree/master/docs))
 * [Snapgit](https://snapgit.com) ([source](https://github.com/glassfalcon/snapgit.com))
 * [iamdustan.com](http://iamdustan.com/) ([source](https://github.com/iamdustan/iamdustan.github.io))
 * [React Hardware](http://iamdustan.com/react-hardware/) ([source](https://github.com/iamdustan/react-hardware/tree/master/docs))
@@ -69,7 +76,7 @@ it'll be converted to `/docs/index.html`.
 * [emilyaviva.com](http://emilyaviva.com) ([source](https://github.com/emilyaviva/emilyaviva.com))
 * [dynamicext.com](http://www.dynamicext.com/)
 * [React Gravatar](http://kyleamathews.github.io/react-gravatar/) ([source](https://github.com/KyleAMathews/react-gravatar/tree/master/www))
-* [johnm.io](http://johnm.io) ([source](https://github.com/johnpmorris/johnpmorris.github.io/tree/react-rebuild))
+* [johnmorris.io](http://johnmorris.io) ([source](https://github.com/johnpmorris/johnpmorris.github.io/tree/react-rebuild))
 * [twnsnd.co](http://twnsnd.co/)
 * [Beau Han Xu](http://www.beauhanxu.com/)
 * [HalfAtheist](https://halfatheist.com/) ([source](https://github.com/halfatheist/halfatheist.github.io))
@@ -109,6 +116,30 @@ it'll be converted to `/docs/index.html`.
 * [eugenyzeiri.xyz](http://eugenyzeiri.xyz)
 * [Reactiflux](https://www.reactiflux.com/) ([source](https://github.com/reactiflux/reactiflux.com))
 * [2016 JavaScript Rising Stars](https://risingstars2016.js.org/) ([source](https://github.com/michaelrambeau/risingstars2016))
+* [Daniel Reszka blog, code & gallery](http://blog.pixarea.com) ([source](https://github.com/danielres/blog))
+* [meadowlab.io](https://meadowlab.io/)
+* [xpchbill.github.io](https://xpchbill.github.io/)  ([source](https://github.com/xpchbill/xpchbill.github.io))
+* [jaredhanstra.com](http://www.jaredhanstra.com/)  ([source](https://github.com/jhanstra/jh-gatsby))
+* [BBQ Agency](https://bbq.agency/) ([source](https://github.com/bbq-agency/bbq-agency.github.io))
+* [Coriolan UI - sass mixins pack](https://coriolan-ui.github.io/) ([source](https://github.com/coriolan-ui/coriolan-ui.github.io))
+* [5 minutes of React podcast - in Russian](http://5minreact.ru/) ([source](https://github.com/5minreact/5minreact))
+* [5 minutes of React podcast - in English](https://5minreact.audio/) ([source](https://github.com/5minreact/5minreact_audio))
+* [@hsribei's log](https://hsribei.github.io/log) ([source](https://github.com/hsribei/log))
+* [Megan Keesee](https://megankeesee.com) ([source](https://github.com/MeganKeesee/personal-site))
+* [devtheweb.io](https://devtheweb.io)
+* [SameMoment Blog](http://blog.samemoment.com/)
+* [Kombi Labs](http://kombi.io/)
+* [harshiniraji.in](http://harshiniraji.in)
+* [Psalm.Bible](http://psalm.bible/psalm-139-16/)
+* [Dimitrios Lytras](https://dimitrioslytras.com)
+* [storybooks.js.org](https://storybooks.js.org) ([source](https://github.com/storybooks/storybooks.github.io/))
+* [Nicholas Young](https://nicholaswyoung.com)
+* [Segment Blog](https://segment.com/blog/)
+* [Adarsh Pyarelal](https://adarsh.netlify.com)
+* [Yisela Alvarez Trentini](https://www.yisela.com)
+* [Thijs Koerselman](https://www.vauxlab.com)
+* [Programming Is Easy](http://programming-is-easy.com)
+* [Arun Venkatesan](http://arun.is)
 * [Edit this file to add yours!](https://github.com/gatsbyjs/gatsby/blob/master/README.md)
 
 *Note, for the sites that have made their source available, you can
@@ -182,14 +213,23 @@ starter](https://github.com/gatsbyjs/gatsby-starter-default).
 There are several starters that have been created. Create a PR to
 include yours!
 
-* [Kitchen sink default starter](https://github.com/gatsbyjs/gatsby-starter-default) ([Demo](http://gatsbyjs.github.io/gatsby-starter-default/))
+* [Default minimal starter](https://github.com/gatsbyjs/gatsby-starter-default) ([Demo](http://gatsbyjs.github.io/gatsby-starter-default/))
+* [Kitchen sink starter](https://github.com/gatsbyjs/gatsby-starter-kitchen-sink) ([Demo](http://gatsbyjs.github.io/gatsby-starter-kitchen-sink/))
 * [Simple blog](https://github.com/gatsbyjs/gatsby-starter-blog) ([Demo](http://gatsbyjs.github.io/gatsby-starter-blog/))
 * [Simple documentation site](https://github.com/gatsbyjs/gatsby-starter-documentation) ([Demo](http://gatsbyjs.github.io/gatsby-starter-documentation/))
-* [Lumen](https://github.com/wpioneer/gatsby-starter-lumen) ([Demo](http://wpioneer.github.io/gatsby-starter-lumen/))
+* [Lumen](https://github.com/wpioneer/gatsby-starter-lumen) ([Demo](https://alxshelepenok.github.io/gatsby-starter-lumen/))
 * [DrunkenBlog](https://github.com/konsumer/gatsby-starter-drunkenblog) ([Demo](http://konsumer.js.org/gatsby-starter-drunkenblog/))
 * [Clean start](https://github.com/brianstone/gatsby-starter-clean) ([Demo](http://gatsby-starter-clean.netlify.com/))
 * [Project AMP blog](https://github.com/chiedo/gatsby-amp-starter-blog)
 * [Gatstrap](https://github.com/jaxx2104/gatsby-starter-bootstrap) ([Demo](https://jaxx2104.github.io/gatsby-starter-bootstrap/))
+* [Alchemy](https://github.com/bntzio/gatsby-starter-alchemy) ([Demo](https://alchemy.netlify.com/))
+* [Superstylin'](https://github.com/bntzio/gatsby-starter-superstylin) ([Demo](https://superstylin.netlify.com/))
+* [Multi-Author Blog](https://github.com/emilyaviva/gatsby-starter-blog-multiple-authors
+) ([Demo](https://emilyaviva.github.io/gatsby-starter-blog-multiple-authors/))
+* [Barebones](https://github.com/Rusta/gatsby-starter-barebones) ([Demo](https://rusta.github.io/gatsby-starter-barebones/))
+* [Barebones with Preact](https://github.com/Rusta/gatsby-starter-barebones-preact) ([Demo](https://rusta.github.io/gatsby-starter-barebones-preact/))
+* [Undefined](https://github.com/kentaro-m/gatsby-starter-undefined) ([Demo](https://undefined.netlify.com/))
+* [Guoliim blog starter](https://github.com/guoliim/guoliim-blog) ([Demo](https://blog.guoli.im/))
 
 ### Tutorial: Building a documentation site from the Gatsby Documentation Starter
 1. Install gatsby `npm install -g gatsby`
@@ -270,22 +310,22 @@ When loaded and required, the resulting javascript object looks like the followi
 Now Gatsby wraps the markdown file in this very simple React.js component.
 
 ```javascript
-module.exports = React.createClass({
-  displayName: "MarkdownWrapper",
+export default MarkdownWrapper extends React.Component {
+  render() {
+    const post = this.props.route.page.data
 
-  render: function() {
-    var post = this.props.route.page.data
-
-    return <div className="markdown">
-      <h1>{post.title}</h1>
-      <div dangerouslySetInnerHTML={{__html: post.body}}/>
-    </div>
+    return (
+      <div className="markdown">
+        <h1>{post.title}</h1>
+        <div dangerouslySetInnerHTML={{__html: post.body}}/>
+      </div>
+    );
   }
-})
+}
 ```
 
 #### frontmatter and metadata
-Gatsby uses frontmatter and html-frontmatter to pull metadata out of files. This data is typically used in links leading to each page. The most relevant example is a list of blog posts in which you display the title, description, tags, etc. in the form of `{post.title}` in the React.js component.
+Gatsby uses [front-matter](https://github.com/jxson/front-matter) and [html-frontmatter](https://github.com/zeke/html-frontmatter) to pull metadata out of files. This data is typically used in links leading to each page. The most relevant example is a list of blog posts in which you display the title, description, tags, etc. in the form of `{post.title}` in the React.js component.
 
 As seen in our previous markdown file, the title is part of the frontmatter
 ```
@@ -316,13 +356,22 @@ exports.data = {
 export default MyComponent ...
 ```
 
+You can also use a named export for the data object:
+
+```javascript
+export const data = {
+  title: 'This is a title',
+}
+```
+
 ### Structure of a Gatsby site
 * `config.toml` - Core application configuration is stored here. Available via a `require`
 or `import` of 'config'. Values:
   * `noProductionJavascript` - set to a truthy value to prevent generation of bundle.js
-  (containing your client-side Single Page App) during a `gatbsy build`. You'll need
+  (containing your client-side Single Page App) during a `gatsby build`. You'll need
   to update your top-level `html.js` file so that it doesn't pull in `bundle.js` in
   production, but you'll want to keep it for `gatsby develop` mode.
+* `html.js` - A React.js component that provides the overall HTML structure for the site.
 * `/pages` - All pages go here. Everything is turned into a page except
 files which start with an underscore:
   * `_template` files under `/pages` are treated as parent templates for other pages in
@@ -331,11 +380,17 @@ files which start with an underscore:
   found' page. If you `<Link>` to an unknown URL, this page will be shown. Note: in
   production, you'll need to [set up your server host to show this page when it can't find
   the requested file](https://github.com/gatsbyjs/gatsby/pull/121#issuecomment-194715068).
-* (optional) `gatsby-browser.js` - a way to hook into key application events. Export
-`onRouteUpdate` of type `function()` to be notified whenever React-Router
-navigates.
+* (optional) `gatsby-browser.js` - a way to hook into key application events.
+  * Export `onRouteUpdate` of type `function()` to be notified whenever React-Router navigates.
+  * Export `modifyRoutes` of type `function(routes: Object) => Object` to modify the react-router routes.
+  * Export `shouldUpdateScroll` of type `function(prevRouterProps: Object, nextRouterProps: Object) => boolean`
+  to determine if a given route change should scroll.
+  * Export `wrapRootComponent` of type `function(Root: React.Component) => React.Component` to allow you to wrap your `<Root />` component before mounting it with `ReactDOM.render()`.
 * (optional) `gatsby-node.js` - a way to hook into events during build
 and development.
+  * Export `rewritePath` of type `function(parsedFilePath: Object, metadata: Object)` to programmatically rewrite paths. This function will be called for every page and when you return a string, it is used as the new path.
+* (optional) `gatsby-ssr.js` - a way to hook into events during server-side rendering
+  * Export `wrapRootComponent` of type `function(Root: React.Component) => React.Component` to allow you to wrap your `<Root />` component before `ReactDOMServer.renderToString()`.
 
 ### How to use your own webpack loaders
 
@@ -540,10 +595,11 @@ support. You can extend the syntax (e.g. for mathematical equations) by installi
 [markdown-it plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
 
 If you want to do this you will need to use a custom markdown loader. You can
-copy the one provided in the default starter [here](https://github.com/gatsbyjs/gatsby-starter-default/blob/master/loaders/markdown-loader/index.js).
+copy the one provided in the kitchen sink starter
+[here](https://github.com/gatsbyjs/gatsby-starter-kitchen-sink/blob/master/loaders/markdown-loader/index.js).
 Add the relevant packages to your dependencies, including the markdown-it
-plugins that you want to use and enable them with `md.use(require('markdown-it-plugin-name'))`
-within the markdown loader file.
+plugins that you want to use and enable them with
+`md.use(require('markdown-it-plugin-name'))` within the markdown loader file.
 
 ### Deploying to Github Pages (and other hosts where your site's links need prefixes)
 Gatsby supports automatically prefixing links with its `prefixLink` helper function.
